@@ -31,7 +31,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_gherkin: ^3.0.0-rc.17   
+  flutter_gherkin: ^3.0.0-rc.17
+  shared_lib: 
+    path: '../'
 
 
   
