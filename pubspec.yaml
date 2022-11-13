@@ -1,7 +1,7 @@
 name: shared_lib
 description: A new Flutter package project.
 version: 0.0.1
-homepage: "https://github.com/mahmoodDehghan/flutter_pack_template"
+homepage: "https://github.com/mahmoodDehghan/shared_lib"
 
 environment:
   sdk: '>=2.18.4 <3.0.0'
@@ -10,17 +10,25 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  build_runner: ^2.3.2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
+
+  uses-material-design: true
+  # Enable generation of localized Strings from arb files.
+  generate: true
 
   # To add assets to your package, add an assets section, like this:
   # assets:

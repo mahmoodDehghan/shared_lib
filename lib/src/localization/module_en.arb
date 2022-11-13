@@ -1,0 +1,7 @@
+{
+  "moduleTitle": "shared_lib",
+  "@moduleTitle": {
+    "description": "The title of the example application"
+  },
+  
+}
